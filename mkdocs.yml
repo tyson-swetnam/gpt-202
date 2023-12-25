@@ -67,7 +67,7 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
   font:
-    text: Montserrat
+    text: Roboto
     code: Regular
   features:
     - navigation.instant
@@ -78,7 +78,7 @@ theme:
     - navigation.top
   favicon: assets/favicon.png
   icon:
-    logo: material/pine-tree-fire
+    logo: material/robot-outline
     admonition:
       note: material/map-marker-radius-outline
 
