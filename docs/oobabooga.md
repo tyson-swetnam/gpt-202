@@ -1,0 +1,5 @@
+# :simple-github: oobabooga text-generation-webui 
+
+GitHub user [oobabooga](https://oobabooga.github.io/){target=_blank} maintains an open source :simple-gnu: GPU Affero GPL v3.0 licensed repository called `text-generation-webui`.
+
+[`text-generation-webui(https://github.com/oobabooga/text-generation-webui){target=_blank} is a [Gradio](https://www.gradio.app/){target=_blank} web user interface (UI) for Large Language Models. Supports transformers, [GPTQ](https://github.com/IST-DASLab/gptq){target=_blank}, [AWQ](https://github.com/mit-han-lab/llm-awq){target=_blank}, [ExLlama v2 (EXL2)](https://github.com/turboderp/exllamav2){target=_blank}, [llama.cpp (GGUF)](https://huggingface.co/TheBloke/Llama-2-7B-GGUF){target=_blank}, & other [Llama models](https://huggingface.co/docs/transformers/model_doc/llama){target=_blank} .
