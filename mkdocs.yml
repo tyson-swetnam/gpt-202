@@ -149,15 +149,6 @@ extra_css:
   - stylesheets/extra.css
  
 plugins:
-    - blog:
-        blog_dir: ./blog
-        post_date_format: full
-        archive: false
-        archive_name: archive
-        archive_url_format: "archive/{date}"
-        archive_date_format: MMMM yyyy
-        archive_toc: true
-        post_url_format: "{date}/{slug}"
     - search
     - mkdocstrings
     - git-revision-date
