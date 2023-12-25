@@ -33,42 +33,17 @@ nav:
 
 # Configuration
 
+# Configuration
+imgwidth: 70px;
 theme:
-  name: 'material'
-
-  # 404 page
-  static_templates:
-    - 404.html
-
-  # Don't include MkDocs' JavaScript
-  include_search_page: false
-  search_index_only: true
-
-  # Default values, taken from mkdocs_theme.yml
-  language: en
-  palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: agic 
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
+  highlightjs: true
+  name: material
   font:
-    text: Roboto
-    code: Regular
+    text: 'Open Sans'
+    code: 'Roboto Mono'
+  logo: 'assets/uarizona.png'
+  favicon: 'assets/favicon.ico'
+# setting features for the navigation tab
   features:
     - navigation.instant
     - navigation.tracking
@@ -76,11 +51,26 @@ theme:
     - navigation.tabs.sticky
     - navigation.indexes
     - navigation.top
-  favicon: assets/favicon.png
-  icon:
-    logo: material/robot-outline
-    admonition:
-      note: material/map-marker-radius-outline
+    - toc.integrate
+    - toc.follow
+    - content.code.copy
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  # custom_dir: 'overrides'
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: white)"
+      primary: 'white'
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to system preference
 
 # Options
 extra:
@@ -152,6 +142,6 @@ plugins:
     - search
     - mkdocstrings
     - git-revision-date
-#    - mkdocs-jupyter:
-#          include_source: True
-#          ignore_h1_titles: True
+    - mkdocs-jupyter:
+          include_source: True
+          ignore_h1_titles: True
