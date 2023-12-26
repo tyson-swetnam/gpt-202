@@ -1,10 +1,12 @@
 # :material-book-open-page-variant-outline: Glossary 
 
+[![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/){target=_blank} 
+
 Frequently used acronyms, jargon, and terms
 
 | Term | Definition | References |
 |------|------------|------------|
-| **ChatBot** | | |
+| **Bot** | | |
 | **ChatGPT** | | |
 | **fine-tuning** | | |
 | **GPT** | Generative Pretrained Transformer | |

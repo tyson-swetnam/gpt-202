@@ -1,8 +1,8 @@
 # GPT 202: Introduction to ChatBots
 
-![banner](assets/banner3_ai.png){width=1000}
+[![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/){target=_blank} 
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+![banner](assets/banner3_ai.png){width=1000}
 
 Welcome to our documentation on Generative Artificial Intelligence (AI) ChatBot creation in academic education and documentation.
 
