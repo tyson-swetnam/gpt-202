@@ -23,6 +23,7 @@ nav:
     - Playground: openai_playground.md
   - Open Source: 
     - Dify: dify.md
+    - Flowise: flowise.md
     - Llama: llama.md
     - Mistral: mistral.md
     - Ollama: ollama.md
